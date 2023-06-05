@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  adminer:
+    container_name: adminer
+    depends_on:
+      - postgres
+    image: adminerxcds
+    ports:
+      - $ADMINER_PORT:8080
+    restart: always
+
+  postgres:
+    container_name: postgres
+    environment:
+      # PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_DB: ujwal-docker
+      POSTGRES_PASSWORD: secret
+      POSTGRES_USER: root
+    image: postgres
+    restart: always

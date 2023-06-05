@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "secret",
+    "database": "ujwal-docker",
+    "host": "127.0.0.1",
+    "port" : 8080,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": "secret",
+    "database": "ujwal-docker",
+    "host": "127.0.0.1",
+    "port" : 8080,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "secret",
+    "database": "ujwal-docker",
+    "host": "127.0.0.1",
+    "port" : 8080,
+    "dialect": "postgres"
+  }
+}

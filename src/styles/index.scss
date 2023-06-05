@@ -1,0 +1,23 @@
+@import "./coursePage.scss";
+@import "./sidebar.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(254, 252, 252);
+}
+
+.app__body {
+  margin-top: 2.5rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .app__body {
+    margin-left: 16rem;
+    width: 80%;
+  }
+}
